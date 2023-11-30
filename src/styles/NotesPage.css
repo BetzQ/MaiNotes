@@ -1,0 +1,44 @@
+.notes-container {
+  height: 86.9vh;
+  overflow-y: scroll;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.notes-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.notes-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+.note-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.note-title {
+  font-size: 20px;
+  margin: 0;
+}
+
+.note-body {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.note-created-at {
+  font-size: 14px;
+  color: #888;
+}
+
+.note-status {
+  font-size: 14px;
+  color: #0a9d4d;
+}

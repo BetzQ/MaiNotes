@@ -1,0 +1,50 @@
+.note-detail-container {
+  max-width: 600px;
+  margin: 2em auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: relative; /* Menjadikan kontainer sebagai referensi posisi */
+}
+
+.note-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.note-body {
+  margin-bottom: 20px;
+}
+
+.note-created-at {
+  color: #777;
+  font-size: 12px;
+}
+
+.delete-button,
+.archive-button {
+  background-color: transparent;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
+  margin-left: 2em;
+}
+
+.delete-icon {
+  font-size: 2.5em;
+  color: #dc3545;
+}
+.archive-icon {
+  font-size: 2.5em;
+  color: rgb(65, 65, 65);
+}
+.archive-button:hover .archive-icon {
+  color: rgb(45, 45, 45);
+}
+
+.delete-button:hover .delete-icon {
+  color: #c82333;
+}

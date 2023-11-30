@@ -1,0 +1,43 @@
+.add-note-container {
+    max-width: 600px;
+    margin: 2em auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-note-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .add-note-form {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  .add-note-input,
+  .add-note-textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
